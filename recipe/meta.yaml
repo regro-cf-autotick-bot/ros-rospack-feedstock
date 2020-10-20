@@ -9,7 +9,7 @@ source:
   patches:
 
 build:
-  number: 3
+  number: 4
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('ros-rospack', 'x.x') }}
